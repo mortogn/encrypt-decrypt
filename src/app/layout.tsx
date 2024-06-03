@@ -16,7 +16,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <div className="fixed flex-wrap inset-0 flex items-center justify-center max-w-[650px] mx-auto">{children}</div>
+      </body>
     </html>
   );
 }
