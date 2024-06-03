@@ -32,7 +32,7 @@ export default function EncryptPage() {
 
         <Link href={"/decrypt"} className={buttonVariants({ variant: "ghost", className: "gap-2" })}>
           <LinkIcon className="size-4" />
-          Let's go decrypt
+          Let&apos; go decrypt
         </Link>
       </div>
     </div>

@@ -18,7 +18,7 @@ export default function DecryptPage() {
 
       <p className="mt-4">
         If the secret is not
-        <pre className="font-mono bg-slate-200 w-max px-2 py-1">fb4fa912da5ddeb999e9ac87f6d7043bdc771e485b3927c781bb5564d2fc6970</pre>
+        <span className="font-mono bg-slate-200 block w-max px-2 py-1">fb4fa912da5ddeb999e9ac87f6d7043bdc771e485b3927c781bb5564d2fc6970</span>
         the decryption will not work
       </p>
 
@@ -43,7 +43,7 @@ export default function DecryptPage() {
 
         <Link href={"/encrypt"} className={buttonVariants({ variant: "ghost", className: "gap-2" })}>
           <LinkIcon className="size-4" />
-          Let's go encrypt
+          Let&apos; go encrypt
         </Link>
       </div>
     </div>
